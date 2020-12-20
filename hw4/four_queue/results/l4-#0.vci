@@ -1,0 +1,39 @@
+file 2844361 1603959167                                         
+version 2
+run l4-0-20201029-17:12:45-11863
+attr configname l4
+attr datetime 20201029-17:12:45
+attr experiment l4
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Four_Queue
+attr processid 11863
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Four_Queue.gen.sendIaTime exponential(11.314285714285715s)
+param Four_Queue.Hx.p0 0.25
+param Four_Queue.Hx.p1 0.25
+param Four_Queue.Hx.p2 0.25
+param Four_Queue.Hx.p3 0.25
+param Four_Queue.H0.serviceTime0 exponential(3s)
+param Four_Queue.Hx.serviceTime1 exponential(1s)
+param Four_Queue.Hx.serviceTime2 exponential(2s)
+param Four_Queue.Hx.serviceTime3 exponential(4s)
+
+vector 0 Four_Queue.fifo[0] "" ETV
+vector 1 Four_Queue.fifo[2] "" ETV
+vector 2 Four_Queue.fifo[1] "" ETV
+vector 3 Four_Queue.fifo[3] "" ETV
+vector 4 Four_Queue.sink "queueing time vector" ETV
+0	907 1412378 4 199111 5.854636007653 98601.259669600171 32768 0.042139773727 2454.4699041129 40733448.375854 68744389603.877
+0	1413285 20892 199114 202009 98601.425634841871 99991.478238402834 477 2329.7376309338 2457.1499585313 1143983.9906033 2743983360.9956
+1	1434177 349194 7 201997 9.612564116058 99989.546999637378 8285 0.000374259518 24.469330093078 19705.589359033 94613.220161774
+2	1783371 348957 16 202006 11.841228772952 99991.252405661326 8289 0.000283157491 11.485758308196 8996.8136121958 19356.99969802
+3	2132328 352528 22 202012 14.613726154433 99992.510216241892 8331 0.000130307189 52.09107787164 49822.158606791 603006.49233334
+4	2484856 359504 48 201984 32.349374380987 99983.992859992345 8340 4.348664329283 47191.733769013 36545506.341503 352352825077.65
+
