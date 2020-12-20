@@ -1,2 +1,0 @@
-lambda mu traffic_load total_time waiting_by_job njob_avg nq_avg
-1.5 1 1.5 10000.3 1513.24 2274.19 2273.19

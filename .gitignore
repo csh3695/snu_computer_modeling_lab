@@ -1,6 +1,8 @@
 *.exe
 *.out
 *.pdf
+*.vci
+*.vec
 hw1_report.md
 hw2_report.md
 hw3_report.md
